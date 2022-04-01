@@ -11,6 +11,10 @@ body{
     justify-content: space-around;
 }
 
+a{
+    text-decoration: none;
+    cursor: pointer;
+} 
 .container {
     text-align: center;
     
@@ -19,12 +23,12 @@ body{
     padding-bottom: 2.5rem;
     border-radius: 1rem;
     background-color: hsl(216, 50%, 16%);
-    box-shadow: -1px 20px 20px 20px rgba(0, 0, 0, 0.379);
+    box-shadow: -1px 22px 22px 22px rgba(0, 0, 0, 0.379);
     transition: .5s;
 }
 .container:hover{
     transform: scale(105%);
-    box-shadow:  -1px 20px 20px 20px rgb(40, 56, 160);
+    box-shadow:  -1px 18px 18px 18px rgb(40, 56, 160);
 }
 
 .img{
@@ -97,4 +101,6 @@ body{
 
 .attribution{
     margin-bottom: -5rem;
+    font-size: medium;
+    font-style: oblique;
 }
