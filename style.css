@@ -1,0 +1,100 @@
+html, body{
+    height: 100%;
+}
+
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    text-align: center;
+    
+    width: 18rem;
+    height: 30rem;
+    padding-bottom: 2.5rem;
+    border-radius: 1rem;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: -1px 20px 20px 20px rgba(0, 0, 0, 0.379);
+    transition: .5s;
+}
+.container:hover{
+    transform: scale(105%);
+    box-shadow:  -1px 20px 20px 20px rgb(40, 56, 160);
+}
+
+.img{
+    margin-top: 1.5rem;
+ height: 16rem;
+ width: 16rem;
+ border-radius: .3rem;
+}
+.title{
+    color: #fff;
+    font-style: initial;
+    align-self: flex-start;
+    margin-left: -5.4rem;
+    font-size: 1.3rem;
+}
+.subtitle{
+    font-size: .9rem;
+    color: hsl(215, 32%, 27%);
+    padding: .5rem;
+    margin-left: .6rem;
+    text-align: start;
+}
+.desc{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1px;
+}
+
+.eterium{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.descript,
+.eth{
+    margin: 2px 4px 2rem 6px;
+    font-size: .89rem;
+
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+.descript{
+    color: hsl(215, 32%, 27%);
+}
+
+.clock{
+    display: flex;
+    flex-direction: row;
+}
+.autor{
+    border-top: 1px solid hsl(215, 32%, 27%);;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.img__ava{
+    width: 30px;
+    height: 30px;
+}
+.name{
+    margin-left: -9px;
+    color: #fff;
+}
+
+.attribution{
+    margin-bottom: -5rem;
+}
